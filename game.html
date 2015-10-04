@@ -9,12 +9,12 @@
 </tr>
 
 <tr>
-<td><span id="it">Testing5</span>
+<td><p id="demo">Testing3</p>
 </td>
 </tr>
 
 <tr>
-<td><button type="button" onclick='document.getElementById("it").value="aaa";'>Yes</button> 
+<td><button type="button" onclick="myFunction()">Yes</button> 
 </td>
 </tr>
 
@@ -23,6 +23,12 @@
 </td>
 </tr>
 </table>
+
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = "56";
+}
+</script>
 
 </body>
 

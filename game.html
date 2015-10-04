@@ -14,12 +14,12 @@
 </tr>
 
 <tr>
-<td><input id="step">1</input>
+<td><input id="step" value="1"/>
 </td>
 </tr>
 
 <tr>
-<td><p id="expl">Explanation</p>
+<td><p id="expl">Explanation7</p>
 </td>
 </tr>
 
@@ -36,14 +36,14 @@
 
 <script>
 function myFunction() {
-    if (document.getElementById("step").innerHTML == "1") {
+    if (document.getElementById("step").value == "1") {
         document.getElementById("demo").innerHTML = "56";
         document.getElementById("expl").innerHTML = "Explanation56";
-        document.getElementById("step").innerHTML = "2";
-    } else if (document.getElementById("step").innerHTML == "2") {
+        document.getElementById("step").value = "2";
+    } else if (document.getElementById("step").value == "2") {
         document.getElementById("demo").innerHTML = "100";
         document.getElementById("expl").innerHTML = "Explanation100";
-        document.getElementById("step").innerHTML = "3";
+        document.getElementById("step").value = "3";
     } else
 }
 </script>

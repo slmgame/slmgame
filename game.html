@@ -68,16 +68,6 @@
 </td>
 </tr>
 
-<tr>
-<td>&nbsp;
-</td>
-</tr>
-
-<tr>
-<td align="center">Image Credits: ic1 
-</td>
-</tr>
-
 </table>
 
 <script>
@@ -92,9 +82,9 @@ function myFunction() {
     } else if (document.getElementById("step").value == "2") {
         
         document.getElementById("demo").innerHTML = "Do you want to NOT report the money that the student paid you to ATO nor Centrelink?";
-        document.getElementById("expl").innerHTML = "Now, with the money that the student paid you, you don't report it to ATO nor Centrelink, so you can keep receiving the money from centrelink. Nobody will know because the student will not tell as they are new to Australia.";
+        document.getElementById("expl").innerHTML = "Now, with the money that the student paid you, you don't report it to ATO nor Centrelink, so you can keep receiving the money from centrelink. Nobody will know because the student will not tell as they are new to Australia.    Say YES.";
         document.getElementById("step").value = "3";
-        document.getElementById("im").src = "https://cloud.githubusercontent.com/assets/14965437/10269177/84bc21ea-6b1a-11e5-9e58-0bd91b866355.png";
+        document.getElementById("im").src = "https://cloud.githubusercontent.com/assets/14965437/10269203/8322d0e4-6b1b-11e5-9c67-8c71eda25229.jpg";
         
     } else if (document.getElementById("step").value == "3") {
         
@@ -106,40 +96,16 @@ function myFunction() {
     } else if (document.getElementById("step").value == "4") {
         
         document.getElementById("demo").innerHTML = "Do you want to NOT return their bond when the student leaves?";
-        document.getElementById("expl").innerHTML = "Now the student became sick with the environment of the house and wants to leave, you can retain their bond because of things that are not true for example you can say that the bed was damaged, if the student complains you tell them that the system is against them and show them the law to prove it.";
+        document.getElementById("expl").innerHTML = "Now the student became sick with the environment of the house and wants to leave, you can retain their bond because of things that are not true for example you can say that the bed was damaged when it was not, if the student complains you tell them that the system is against them and show them the law to prove it.  Say YES.";
         document.getElementById("step").value = "5";
         document.getElementById("im").src = "https://cloud.githubusercontent.com/assets/14965437/10269203/8322d0e4-6b1b-11e5-9c67-8c71eda25229.jpg";
         
     }  else if (document.getElementById("step").value == "5") {
         
         document.getElementById("demo").innerHTML = "'I am an Australian citizen, do you have a room?'";
-        document.getElementById("expl").innerHTML = "Say NO, because they could inform the authorities, only accept international students, it's safe for you.";
-        document.getElementById("step").value = "6";
+        document.getElementById("expl").innerHTML = "Say NO, because they could inform the authorities. Only accept international students, it's safe for you.";
+        document.getElementById("step").value = "1";
         document.getElementById("im").src = "https://cloud.githubusercontent.com/assets/14965437/10269151/fa899fb6-6b19-11e5-8a31-c70aaee836b3.jpg";
-        
-    }  else if (document.getElementById("step").value == "6") {
-        
-        document.getElementById("demo").innerHTML = "t7";
-        document.getElementById("expl").innerHTML = "Explanation7";
-        document.getElementById("step").value = "7";
-        
-    }  else if (document.getElementById("step").value == "6") {
-        
-        document.getElementById("demo").innerHTML = "t7";
-        document.getElementById("expl").innerHTML = "Explanation7";
-        document.getElementById("step").value = "7";
-        
-    }  else if (document.getElementById("step").value == "7") {
-        
-        document.getElementById("demo").innerHTML = "t8";
-        document.getElementById("expl").innerHTML = "Explanation8";
-        document.getElementById("step").value = "8";
-        
-    }   else if (document.getElementById("step").value == "8") {
-        
-        document.getElementById("demo").innerHTML = "t3";
-        document.getElementById("expl").innerHTML = "Explanation3";
-        document.getElementById("step").value = "3";
         
     }
 }

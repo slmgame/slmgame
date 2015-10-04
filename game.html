@@ -9,17 +9,17 @@
 </tr>
 
 <tr>
-<td><p id="demo">Testing3</p>
+<td><p id="demo">t1</p>
 </td>
 </tr>
 
 <tr>
-<td><input type="text" id="step" value="1"/>
+<td><input type="hidden" id="step" value="1"/>
 </td>
 </tr>
 
 <tr>
-<td><p id="expl">Explanation9</p>
+<td><p id="expl">Explanation1</p>
 </td>
 </tr>
 
@@ -37,14 +37,54 @@
 <script>
 function myFunction() {
     if (document.getElementById("step").value == "1") {
-        document.getElementById("demo").innerHTML = "56";
-        document.getElementById("expl").innerHTML = "Explanation56";
+        
+        document.getElementById("demo").innerHTML = "t2";
+        document.getElementById("expl").innerHTML = "Explanation2";
         document.getElementById("step").value = "2";
+        
     } else if (document.getElementById("step").value == "2") {
-        document.getElementById("demo").innerHTML = "100";
-        document.getElementById("expl").innerHTML = "Explanation100";
+        
+        document.getElementById("demo").innerHTML = "t3";
+        document.getElementById("expl").innerHTML = "Explanation3";
         document.getElementById("step").value = "3";
-    } 
+        
+    }  else if (document.getElementById("step").value == "3") {
+        
+        document.getElementById("demo").innerHTML = "t4";
+        document.getElementById("expl").innerHTML = "Explanation4";
+        document.getElementById("step").value = "4";
+        
+    }  else if (document.getElementById("step").value == "4") {
+        
+        document.getElementById("demo").innerHTML = "t5";
+        document.getElementById("expl").innerHTML = "Explanation5";
+        document.getElementById("step").value = "5";
+        
+    }  else if (document.getElementById("step").value == "5") {
+        
+        document.getElementById("demo").innerHTML = "t6";
+        document.getElementById("expl").innerHTML = "Explanation6";
+        document.getElementById("step").value = "6";
+        
+    }  else if (document.getElementById("step").value == "6") {
+        
+        document.getElementById("demo").innerHTML = "t7";
+        document.getElementById("expl").innerHTML = "Explanation7";
+        document.getElementById("step").value = "7";
+        
+    }  else if (document.getElementById("step").value == "7") {
+        
+        document.getElementById("demo").innerHTML = "t8";
+        document.getElementById("expl").innerHTML = "Explanation8";
+        document.getElementById("step").value = "8";
+        
+    }   else if (document.getElementById("step").value == "8") {
+        
+        document.getElementById("demo").innerHTML = "t3";
+        document.getElementById("expl").innerHTML = "Explanation3";
+        document.getElementById("step").value = "3";
+        
+    }
 }
 </script>
 

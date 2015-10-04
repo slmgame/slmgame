@@ -29,7 +29,7 @@
 </tr>
 
 <tr>
-<td align="center"><button type="button">No</button> 
+<td align="center"><button type="button" onclick="noFunction()">No</button> 
 </td>
 </tr>
 
@@ -108,6 +108,13 @@ function myFunction() {
         document.getElementById("im").src = "https://cloud.githubusercontent.com/assets/14965437/10269151/fa899fb6-6b19-11e5-8a31-c70aaee836b3.jpg";
         
     }
+}
+
+function noFunction() {
+        document.getElementById("demo").innerHTML = "'Hello, I am an international student, do you have a room?'";
+        document.getElementById("expl").innerHTML = "Say YES, the international students don't know how the system works.";
+        document.getElementById("step").value = "2";
+        document.getElementById("im").src = "https://cloud.githubusercontent.com/assets/14965437/10269151/fa899fb6-6b19-11e5-8a31-c70aaee836b3.jpg";
 }
 </script>
 

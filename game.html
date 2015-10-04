@@ -9,7 +9,7 @@
 </tr>
 
 <tr>
-<td align="center"><p id="demo">t1</p>
+<td align="center"><p id="demo" style="font-size:160%">t1</p>
 </td>
 </tr>
 
@@ -84,14 +84,14 @@
 function myFunction() {
     if (document.getElementById("step").value == "1") {
         
-        document.getElementById("demo").innerHTML = "I'm an international student, do you have a room?";
+        document.getElementById("demo").innerHTML = "Hello, I'm an international student, do you have a room?";
         document.getElementById("expl").innerHTML = "Say YES, the international students don't know how the system works.";
         document.getElementById("step").value = "2";
         
     } else if (document.getElementById("step").value == "2") {
         
-        document.getElementById("demo").innerHTML = "t3";
-        document.getElementById("expl").innerHTML = "Explanation3";
+        document.getElementById("demo").innerHTML = "Do you want to divide the space with a curtains to create more 'rooms' and put more people inside the house?";
+        document.getElementById("expl").innerHTML = "Say YES to earn more money";
         document.getElementById("step").value = "3";
         
     }  else if (document.getElementById("step").value == "3") {
